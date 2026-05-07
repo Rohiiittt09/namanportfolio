@@ -320,7 +320,7 @@ function App() {
                   allowfullscreen
                 ></iframe>
               </div>
-               <div
+              <div
                 className=" p-5 border-2  border-purple-800    shadow-[0_0_10px_rgba(107,33,168,0.5)]
             hover:shadow-[0_0_30px_rgba(107,33,168,1)]
             hover:scale-105
@@ -340,57 +340,230 @@ function App() {
 
           <div></div>
 
-           <div className="sm:w-3/5 lg:w-2/5 w-4/5 text-gray-100 fo text-2xl sm:text-4xl mt-10 ">
+          <div className="sm:w-3/5 lg:w-2/5 w-4/5 text-gray-100 fo text-2xl sm:text-4xl mt-10 ">
             <h1 className="border-b-4 sm:p-2 px-2  border-b-purple-800">
               YouTube Video Edits
             </h1>
           </div>
 
           <div className="w-screen grid grid-cols-1 gap-5 md:grid-cols-2 place-items-center xl:grid-cols-3 p-10  ">
-            <div className="p-5 w-75 h-45 sm:w-120 sm:h-76 xl:w-100 xl:h-70  md:w-80 md:h-60 border-2  border-purple-800    shadow-[0_0_10px_rgba(107,33,168,0.5)]
+            <div
+              className="p-5 w-75 h-45 sm:w-120 sm:h-76 xl:w-100 xl:h-70  md:w-80 md:h-60 border-2  border-purple-800    shadow-[0_0_10px_rgba(107,33,168,0.5)]
             hover:shadow-[0_0_30px_rgba(107,33,168,1)]
             hover:scale-105
-            transition-all duration-300 ease-in-out rounded-2xl flex justify-center items-center">
-              <iframe className=" w-full h-full" src="https://www.youtube.com/embed/wopApqYnu4Q?si=NzLgFAj49S1p9knr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            transition-all duration-300 ease-in-out rounded-2xl flex justify-center items-center"
+            >
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/zjhaKac8C1A?si=eW_V8ekR78JlvNs_"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
             </div>
-            <div className="p-5 w-75 h-45 sm:w-120 sm:h-76 xl:w-100 xl:h-70 md:w-80 md:h-60 border-2  border-purple-800    shadow-[0_0_10px_rgba(107,33,168,0.5)]
+            <div
+              className="p-5 w-75 h-45 sm:w-120 sm:h-76 xl:w-100 xl:h-70 md:w-80 md:h-60 border-2  border-purple-800    shadow-[0_0_10px_rgba(107,33,168,0.5)]
             hover:shadow-[0_0_30px_rgba(107,33,168,1)]
             hover:scale-105
-            transition-all duration-300 ease-in-out rounded-2xl flex justify-center items-center">
-              <iframe className=" w-full h-full" src="https://www.youtube.com/embed/HSYuoCJ0RTo?si=jPQFMC3xdi2qgvjH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-            <div className="p-5 w-75 h-45 sm:w-120 sm:h-76 xl:w-100 xl:h-70  md:w-80 md:h-60 border-2  border-purple-800    shadow-[0_0_10px_rgba(107,33,168,0.5)]
-            hover:shadow-[0_0_30px_rgba(107,33,168,1)]
-            hover:scale-105
-            transition-all duration-300 ease-in-out rounded-2xl flex justify-center items-center">
-              <iframe className=" w-full h-full" src="https://www.youtube.com/embed/yCwtvp9X6vc?si=M6QtFrGYk8ET20yB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-            <div className="p-5 w-75 h-45 sm:w-120 sm:h-76 xl:w-100 xl:h-70  md:w-80 md:h-60 border-2  border-purple-800    shadow-[0_0_10px_rgba(107,33,168,0.5)]
-            hover:shadow-[0_0_30px_rgba(107,33,168,1)]
-            hover:scale-105
-            transition-all duration-300 ease-in-out rounded-2xl flex justify-center items-center">
-              <iframe className=" w-full h-full" src="https://www.youtube.com/embed/G-EWi_btLF0?si=E0oWa1QQM9Jw27v6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-            <div className="p-5 w-75 h-45 sm:w-120 sm:h-76 xl:w-100 xl:h-70  md:w-80 md:h-60 border-2  border-purple-800    shadow-[0_0_10px_rgba(107,33,168,0.5)]
-            hover:shadow-[0_0_30px_rgba(107,33,168,1)]
-            hover:scale-105
-            transition-all duration-300 ease-in-out rounded-2xl flex justify-center items-center">
-              <iframe className=" w-full h-full" src="https://www.youtube.com/embed/BzNIgFAjT5Y?si=FvmJIgr8yPnCzwAR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            transition-all duration-300 ease-in-out rounded-2xl flex justify-center items-center"
+            >
+              <iframe
+                className=" w-full h-full"
+                src="https://www.youtube.com/embed/HSYuoCJ0RTo?si=jPQFMC3xdi2qgvjH"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
             </div>
-            <div className="p-5 w-75 h-45 sm:w-120 sm:h-76 xl:w-100 xl:h-70  md:w-80 md:h-60 border-2  border-purple-800    shadow-[0_0_10px_rgba(107,33,168,0.5)]
+            <div
+              className="p-5 w-75 h-45 sm:w-120 sm:h-76 xl:w-100 xl:h-70 md:w-80 md:h-60 border-2  border-purple-800    shadow-[0_0_10px_rgba(107,33,168,0.5)]
             hover:shadow-[0_0_30px_rgba(107,33,168,1)]
             hover:scale-105
-            transition-all duration-300 ease-in-out rounded-2xl flex justify-center items-center">
-              <iframe className=" w-full h-full" src="https://www.youtube.com/embed/PnS-O9lV-VY?si=hf87qPT7ScNOGARu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-             <div className="p-5 w-75 h-45 sm:w-120 sm:h-76 xl:w-100 xl:h-70  md:w-80 md:h-60 border-2  border-purple-800    shadow-[0_0_10px_rgba(107,33,168,0.5)]
+            transition-all duration-300 ease-in-out rounded-2xl flex justify-center items-center"
+            >
+              <a
+                href="https://www.youtube.com/watch?v=HQnDkwdx6Dk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block relative"
+              >
+                <img
+                  src="https://img.youtube.com/vi/HQnDkwdx6Dk/maxresdefault.jpg"
+                  className="w-full rounded-lg"
+                />
+              </a>
+            </div>
+
+            <div
+              className="p-5 w-75 h-45 sm:w-120 sm:h-76 xl:w-100 xl:h-70  md:w-80 md:h-60 border-2  border-purple-800    shadow-[0_0_10px_rgba(107,33,168,0.5)]
             hover:shadow-[0_0_30px_rgba(107,33,168,1)]
             hover:scale-105
-            transition-all duration-300 ease-in-out rounded-2xl flex justify-center items-center">
-              <iframe className="w-full h-full" src="https://www.youtube.com/embed/w-B5hixq1Sw?si=8CqXtWHYwGf9_fnZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-             <div className="p-5 w-75 h-45 sm:w-120 sm:h-76 xl:w-100 xl:h-70  md:w-80 md:h-60 border-2  border-purple-800    shadow-[0_0_10px_rgba(107,33,168,0.5)]
+            transition-all duration-300 ease-in-out rounded-2xl flex justify-center items-center"
+            >
+              <iframe
+                className=" w-full h-full"
+                src="https://www.youtube.com/embed/yCwtvp9X6vc?si=M6QtFrGYk8ET20yB"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div
+              className="p-5 w-75 h-45 sm:w-120 sm:h-76 xl:w-100 xl:h-70  md:w-80 md:h-60 border-2  border-purple-800    shadow-[0_0_10px_rgba(107,33,168,0.5)]
             hover:shadow-[0_0_30px_rgba(107,33,168,1)]
             hover:scale-105
-            transition-all duration-300 ease-in-out rounded-2xl flex justify-center items-center">
-              <iframe className="w-full h-full" src="https://www.youtube.com/embed/e0LDqaKjPA8?si=i0LsvR4tCyQoeC7Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            transition-all duration-300 ease-in-out rounded-2xl flex justify-center items-center"
+            >
+              <iframe
+                className=" w-full h-full"
+                src="https://www.youtube.com/embed/G-EWi_btLF0?si=E0oWa1QQM9Jw27v6"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div
+              className="p-5 w-75 h-45 sm:w-120 sm:h-76 xl:w-100 xl:h-70  md:w-80 md:h-60 border-2  border-purple-800    shadow-[0_0_10px_rgba(107,33,168,0.5)]
+            hover:shadow-[0_0_30px_rgba(107,33,168,1)]
+            hover:scale-105
+            transition-all duration-300 ease-in-out rounded-2xl flex justify-center items-center"
+            >
+              <iframe
+                className=" w-full h-full"
+                src="https://www.youtube.com/embed/BzNIgFAjT5Y?si=FvmJIgr8yPnCzwAR"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div
+              className="p-5 w-75 h-45 sm:w-120 sm:h-76 xl:w-100 xl:h-70  md:w-80 md:h-60 border-2  border-purple-800    shadow-[0_0_10px_rgba(107,33,168,0.5)]
+            hover:shadow-[0_0_30px_rgba(107,33,168,1)]
+            hover:scale-105
+            transition-all duration-300 ease-in-out rounded-2xl flex justify-center items-center"
+            >
+              <iframe
+                className=" w-full h-full"
+                src="https://www.youtube.com/embed/PnS-O9lV-VY?si=hf87qPT7ScNOGARu"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div
+              className="p-5 w-75 h-45 sm:w-120 sm:h-76 xl:w-100 xl:h-70  md:w-80 md:h-60 border-2  border-purple-800    shadow-[0_0_10px_rgba(107,33,168,0.5)]
+            hover:shadow-[0_0_30px_rgba(107,33,168,1)]
+            hover:scale-105
+            transition-all duration-300 ease-in-out rounded-2xl flex justify-center items-center"
+            >
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/w-B5hixq1Sw?si=8CqXtWHYwGf9_fnZ"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div
+              className="p-5 w-75 h-45 sm:w-120 sm:h-76 xl:w-100 xl:h-70  md:w-80 md:h-60 border-2  border-purple-800    shadow-[0_0_10px_rgba(107,33,168,0.5)]
+            hover:shadow-[0_0_30px_rgba(107,33,168,1)]
+            hover:scale-105
+            transition-all duration-300 ease-in-out rounded-2xl flex justify-center items-center"
+            >
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/e0LDqaKjPA8?si=i0LsvR4tCyQoeC7Z"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+           
             
-m
+            <div
+              className="p-5 w-75 h-45 sm:w-120 sm:h-76 xl:w-100 xl:h-70  md:w-80 md:h-60 border-2  border-purple-800    shadow-[0_0_10px_rgba(107,33,168,0.5)]
+            hover:shadow-[0_0_30px_rgba(107,33,168,1)]
+            hover:scale-105
+            transition-all duration-300 ease-in-out rounded-2xl flex justify-center items-center"
+            >
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/n0g0N68unW8?si=P_CL5jTeX6vRH3SJ"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>{" "}
+            </div>
+            <div
+              className="p-5 w-75 h-45 sm:w-120 sm:h-76 xl:w-100 xl:h-70  md:w-80 md:h-60 border-2  border-purple-800    shadow-[0_0_10px_rgba(107,33,168,0.5)]
+            hover:shadow-[0_0_30px_rgba(107,33,168,1)]
+            hover:scale-105
+            transition-all duration-300 ease-in-out rounded-2xl flex justify-center items-center"
+            >
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/1GPExDcJ_NY?si=QmBa6b29QMVcSuAR"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div
+              className="p-5 w-75 h-45 sm:w-120 sm:h-76 xl:w-100 xl:h-70  md:w-80 md:h-60 border-2  border-purple-800    shadow-[0_0_10px_rgba(107,33,168,0.5)]
+            hover:shadow-[0_0_30px_rgba(107,33,168,1)]
+            hover:scale-105
+            transition-all duration-300 ease-in-out rounded-2xl flex justify-center items-center"
+            >
+              <a
+                href="https://www.youtube.com/watch?v=G05DAg86w0E"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block relative overflow-hidden rounded-xl"
+              >
+                <img
+                  src="https://img.youtube.com/vi/G05DAg86w0E/maxresdefault.jpg"
+                  className="w-full h-full object-cover rounded-xl transition-transform duration-500 group-hover:scale-110"
+                />
+
+                <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition"></div>
+              </a>
+            </div>
+            <div
+              className="p-5 w-75 h-45 sm:w-120 sm:h-76 xl:w-100 xl:h-70  md:w-80 md:h-60 border-2  border-purple-800    shadow-[0_0_10px_rgba(107,33,168,0.5)]
+            hover:shadow-[0_0_30px_rgba(107,33,168,1)]
+            hover:scale-105
+            transition-all duration-300 ease-in-out rounded-2xl flex justify-center items-center"
+            >
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/3HK16MGKVn8?si=dgJ-rGbOegpaGuoA"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
           </div>
         </section>
         <section
